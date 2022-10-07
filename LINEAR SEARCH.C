@@ -16,7 +16,7 @@ int main()
 
   for (c = 0; c < n; c++)
   {
-    if (array[c] == search)    /* If required element is found */
+    if (array[c] == search)   
     {
       printf("%d is present at location %d.\n", search, c+1);
       break;
